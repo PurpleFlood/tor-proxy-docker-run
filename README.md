@@ -5,5 +5,5 @@
 # Quick start 
 
 ```
-curl -O https://github.com/PurpleFlood/tor-proxy-docker-run/blob/main/docker-run.sh | sh
+git clone https://github.com/PurpleFlood/tor-proxy-docker-run/blob/main/docker-run.sh | sh
 ```
