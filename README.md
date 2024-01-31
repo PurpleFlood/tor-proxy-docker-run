@@ -13,3 +13,9 @@ git clone https://github.com/PurpleFlood/tor-proxy-docker-run && sh tor-proxy-do
 ```
 sh uninstall.sh
 ```
+
+# Exposed Ports
+
+    9050: Tor proxy (SOCKS5)
+    9051: Tor control port
+    8118: Privoxy (HTTP Proxy)
