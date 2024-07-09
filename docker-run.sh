@@ -1,3 +1,4 @@
+echo "Docker run in progress"
 docker run --name='tor-privoxy' -d \
   -p 9050:9050 \
   -p 9051:9051 \
