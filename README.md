@@ -2,6 +2,23 @@
 
 - docker (cli or desktop)
 
+# Installing docker
+```
+sudo apt update && sudo apt install docker.io
+```
+## Setup user privileges
+```
+sudo usermod -aG docker $(id -u -n)
+```
+refresh new prigileges set up
+```
+newgrp docker
+```
+## Enable & start doker service 
+```
+sudo systeùctl enable --now docker
+```
+
 # Quick start 
 
 ```
