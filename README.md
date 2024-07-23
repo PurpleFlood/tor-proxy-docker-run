@@ -16,7 +16,7 @@ newgrp docker
 ```
 ## Enable & start doker service 
 ```
-sudo systeùctl enable --now docker
+sudo systemctl enable --now docker
 ```
 
 # Quick start 
